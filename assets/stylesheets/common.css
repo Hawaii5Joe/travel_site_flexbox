@@ -24,6 +24,7 @@ h3{
 #hero {
   width: 100%;
   height: 450px;
+  font-family: 'Shadows Into Light', cursive;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -120,6 +121,7 @@ th {
 }
 
 #masthead{
+  display:flex;
   padding-left: 5%;
   padding-right: 5%;
   height: 100px;
