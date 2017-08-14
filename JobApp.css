@@ -1,0 +1,66 @@
+form {
+  box-sizing: border-box;
+  border: 5px solid lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 10px;
+  color: darkgrey;
+  font-family: Arial;
+
+}
+.input {
+  display: flex;
+  border: .5px solid lightgrey;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:0;
+  padding: 10px;
+  height:50px;
+}
+
+.TopRow{
+  display: flex;
+  justify-content: center;
+
+}
+
+.TopRow .input {
+  width: 50%;
+}
+
+.MiddleRow{
+  display: flex;
+  justify-content: center;
+}
+
+.MiddleRow .input {
+  width: 33.33%;
+}
+
+.LastRow{
+  display: flex;
+  justify-content: center;
+}
+
+.LastRow .input {
+  width: 25%;
+}
+
+input{
+  border:none;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+button{
+  background-color: lightgreen;
+  border-radius: 5px;
+  width: 150px;
+
+}
